@@ -17,4 +17,7 @@ A(sub2mask(size(A),mask,3,:))
 % OR
 I = @(A,varargin) sub2mask(size(A),varargin{:});
 A(I(A,mask,3,:))
+% OR
+I = @(varargin) sub2mask(size(A), varargin{:});
+A(I(mask,3,:))
 ```
