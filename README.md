@@ -4,9 +4,9 @@ MATLAB helper for combining linear and logical indexing
 ## Principle:
 Have you ever had the inconvenience of manipulating 3D or nD arrays with logical indexing?
 ```
->>A = rand(10,10,3,3);
->>mask = eye(10)==1;
->>A(mask,3,:) %errors:
+A = rand(10,10,3,3);
+mask = eye(10)==1;
+A(mask,3,:) %errors:
   Index exceeds matrix dimensions.
 ```
 
