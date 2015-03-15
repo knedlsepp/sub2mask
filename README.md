@@ -1,5 +1,5 @@
 # sub2mask
-MATLAB helper for combining linear and logical indexing
+MATLAB helper for combining subscript and logical indexing
 
 ## Principle:
 Have you ever experienced the inconvenience of manipulating 3D or nD arrays with logical indexing?
